@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calendar</title>
+  <link href="../assets/fontawesome-free-6.4.0-web/css/all.css" rel="stylesheet">
+
+  <link href="style/style.css" rel="stylesheet">
+  <link href="style/sidebar.css" rel="stylesheet">
+  <link href="style/dropdown.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div id="side">
+    <div id="window-controls">
+      <i class="fa-solid fa-circle-xmark"></i>
+      <i class="fa-solid fa-window-maximize"></i>
+      <i class="fa-solid fa-window-minimize"></i>
+      <div class="side-add"><i class="fa-regular fa-calendar-plus"></i></div>
+    </div>
+    <div id="calendar-mini">
+      <div class="calendar-mini-head">
+        <div class="calendar-mini-month">february</div>
+        <div class="calendar-mini-year">2023</div>
+        <div class="calendar-mini-left"><i class="fa-solid fa-angle-left"></i></div>
+        <div class="calendar-mini-right"><i class="fa-solid fa-angle-right"></i></div>
+      </div>
+      <div class="calendar-mini-main">
+
+        <ul class="calendar-mini-main-weekdays">
+          <li>CW</li>
+          <li>Sa</li>
+          <li>Su</li>
+          <li>Mo</li>
+          <li>Tu</li>
+          <li>We</li>
+          <li>Th</li>
+          <li>Fr</li>
+        </ul>
+        <ul class="calendar-mini-main-week-number">
+
+          <li>17</li>
+          <li>18</li>
+          <li>19</li>
+          <li>20</li>
+          <li>21</li>
+
+        </ul>
+        <ul class="calendar-mini-main-days">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li><span class="active">10</span></li>
+          <li>11</li>
+          <li>12</li>
+          <li>13</li>
+          <li>14</li>
+          <li>15</li>
+          <li>16</li>
+          <li>17</li>
+          <li>18</li>
+          <li>19</li>
+          <li>20</li>
+          <li>21</li>
+          <li>22</li>
+          <li>23</li>
+          <li>24</li>
+          <li>25</li>
+          <li>26</li>
+          <li>27</li>
+          <li>28</li>
+          <li>29</li>
+          <li>30</li>
+          <li>31</li>
+        </ul>
+      </div>
+    </div>
+    <div id="my-day">
+      <div class="my-day-">
+        <span class="my-day-name">Tuesday</span>
+        <span class="my-day-date">21/12/2033</span>
+        <span class="my-day-weather">
+          <span class="my-day-weather-value_1">17&#176/</span>
+          <span class="my-day-weather-value_2">32&#176</span>
+          <span class="my-day-weather-icon"><i class="fa-solid fa-cloud-moon-rain"></i></span>
+        </span>
+
+      </div>
+      <ul class="my-day-list">
+        <li class="my-day-list-li">
+          <span class="my-day-list-li-color"></span>
+          <a href="#">
+            <span class="my-day-list-li-time">07:33 - 08:33</span><br>
+            <span class="my-day-list-li-header">Romantic Dinner in Macdownalds</span>
+          </a>
+        </li>
+        <li class="my-day-list-li">
+          <span class="my-day-list-li-color"></span>
+          <a href="#">
+            <span class="my-day-list-li-time">07:33 - 08:33</span><br>
+            <span class="my-day-list-li-header">Romantic Dinner in Macdownalds</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+  <div id="top">
+    <div class="top-day-nav">
+      <div class="top-day-nav-arrow top-day-left"><i class="fa-solid fa-angle-left"></i></div>
+      <div class="top-day-nav-bt">today</div>
+      <div class="top-day-nav-arrow top-day-right"><i class="fa-solid fa-angle-right"></i></div>
+    </div>
+    <div class="top-views">
+      <div class="top-view-day">Day</div>
+      <div class="top-view-week">Week</div>
+      <div class="top-view-month">Month</div>
+      <div class="top-view-year">Year</div>
+    </div>
+    <div class="top-search">
+      <input class="top-search-input" placeholder="Search">
+    </div>
+  </div>
+  <div id="main">
+    <div class="main-days">
+      <ul class="main-days-weekdays">
+        <li>Sat</li>
+        <li>Sun</li>
+        <li>Mon</li>
+        <li>Tue</li>
+        <li>Wen</li>
+        <li>Thu</li>
+        <li>Fra</li>
+      </ul>
+    </div>
+    <div class="main-calendar">
+
+      <div class="main-calendar-days-week main-calendar-days-week-1">
+        <ul class="main-calendar-days-blocks">
+
+          <li class="main-calendar-days-block">
+            <span class="main-calendar-day-number">23</span>
+            <div class="main-calendar-day-events">
+              <ul>
+                <li class="main-calendar-day-event">
+                  <span class="main-calendar-day-event-color"></span>
+                  <span class="main-calendar-day-event-head">Valentine's day</span>
+                  <span class="main-calendar-day-event-time">06:32</span>
+                </li>
+              </ul>
+            </div>
+          </li>
+
+
+        </ul>
+      </div>
+
+      <div class="main-calendar-days-week main-calendar-days-week-2"></div>
+      <div class="main-calendar-days-week main-calendar-days-week-3"></div>
+      <div class="main-calendar-days-week main-calendar-days-week-4"></div>
+      <div class="main-calendar-days-week main-calendar-days-week-5"></div>
+
+    </div>
+  </div>
+  <script src="msic.js"></script>
+</body>
+
+</html>
